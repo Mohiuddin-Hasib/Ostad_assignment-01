@@ -13,6 +13,8 @@ class Song extends Media{
 }
 }
 void main (){
+  Media media=Media();
+  media.play();
 
   Song artist= Song('Rakib');
   artist.play();
